@@ -30,11 +30,13 @@ data_5k_10k <- strava_runs %>%
 
 ## Exercise 1
 
-```{r ex1a, out.width="80%"}
+When you fill the missing part, remove the # symbol before running the code chunk and eval=FALSE
+
+```{r ex1a, out.width="80%", eval=FALSE}
 data_5k_10k %>% 
-  filter(gender == "M") %>%
+  # filter(______) %>%
   filter(!is.na(average.heart.rate..bpm.)) %>%
-  ggplot(aes(x = average.heart.rate..bpm.)) + 
+  # ggplot(aes(x = __________)) + 
   geom_histogram(bins = 20)
 ```
 
@@ -82,46 +84,26 @@ _Write your text to answer exercise 2b here (Please delete this message before s
 ```
 
 
-
+_Write your text to answer exercise 3b here (Please delete this message before submission!)_
 
 
 ## Exercise 4
 
-#### Example of a good data visualisation
+```{r ex4, out.width = "80%"}
+# Write your code to answer exercise 4 here
 
-```{r ex4_good_viz, echo = FALSE, out.width = "80%"}
-# edit the file path accordingly
-knitr::include_graphics("img/good_viz.png")
+
+
+
+
 ```
 
-_Edit the text below by replacing the bold text with the appropriate information to provide a reference for your image (Please delete this message before submission!)_
 
-**Author/Organisation**, "**Title of website**" [Online]. Available at: **URL** (Accessed: **day month year**)
-
-
-The above image presents a good data visualisation because:
-
--   _Reason 1_
--   _Reason 2_
-
-
-#### Example of a bad data visualisation
-
-
-```{r ex4_bad_viz, echo = FALSE, out.width = "80%"}
-# edit the file path accordingly
-knitr::include_graphics("img/bad_viz.png")
-```
-
-_Edit the text below by replacing the bold text with the appropriate information to provide a reference for your image (Please delete this message before submission!)_
-
-**Author/Organisation**, "**Title of website**" [Online]. Available at: **URL** (Accessed: **day month year**)
+_Write your text to answer exercise 4b here (Please delete this message before submission!)_
 
 
 
-The above image presents a bad data visualisation because:
 
--   _Reason 1_
--   _Reason 2_
+
 
 
